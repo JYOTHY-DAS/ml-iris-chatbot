@@ -24,9 +24,9 @@ def predict_species(features: IrisFeatures):
     return {"species": prediction}
 print("API created")
 base_url = "http://127.0.0.1:8000"
-print(f"Default FastAPI URL is: {base_url}/")
-print(f"Here, add the endpoint /predict/: {base_url}/predict/")
-print(f"To see and test the API go to: {base_url}/docs")
+# print(f"Default FastAPI URL is: {base_url}/")
+# print(f"Here, add the endpoint /predict/: {base_url}/predict/")
+# print(f"To see and test the API go to: {base_url}/docs")
 
 
 # Run the API with: uvicorn iris_api:app --reload
